@@ -118,19 +118,19 @@ let javaScriptApps = [
 
 let designs = [
     {
-        title: "Presentatio 1 using canva",
+        title: "Presentation 1 using canva",
         image: "./images/portfolio/presentation1.png",
         github: "",
         live: "https://www.canva.com/design/DAF8mkyiENY/St0Dj664uSqmWCRagWag7Q/view?utm_content=DAF8mkyiENY&utm_campaign=designshare&utm_medium=link&utm_source=editor"
     },
     {
-        title: "Presentatio 2 using canva",
+        title: "Presentation 2 using canva",
         image: "./images/portfolio/presentation2.png",
         github: "",
         live: "https://www.canva.com/design/DAF5gzD7iPs/3jLKsFngdzzVIHUoZNsVdQ/view?utm_content=DAF5gzD7iPs&utm_campaign=designshare&utm_medium=link&utm_source=editor"
     },
     {
-        title: "Presentatio 3 using canva",
+        title: "Presentation 3 using canva",
         image: "./images/portfolio/presentation3.png",
         github: "",
         live: "https://www.canva.com/design/DAF17zf3SU8/nydxaa2lYz-zFFiMFxG9Ig/view?utm_content=DAF17zf3SU8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
