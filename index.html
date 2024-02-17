@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- style switcher -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+</head>
+<body>
+    <!-- Start main container -->
+    <div class="main-container">
+        <!-- start aside  -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><Span>E</Span>mam</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact" id="contactBtn"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <!-- end aside  -->
+        <!-- start main content -->
+        <div class="main-content">
+            <!-- start home section -->
+            <section class="home section active" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Omar Elemam</span></h3>
+                            <h3 class="my-profession">I' m a <span class="typing"></span></h3>
+                            <p>I'm a web developer with experience more than a year. My expertise is to create and develope websites and more...</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img">
+                            <img src="images/me.jpg" alt="Omar">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end home section -->
+
+            <!-- start about section -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>
+                                        I'm Omar Elemam ... <span>A Web developer</span>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident excepturi eligendi sint perferendis culpa ipsum doloremque. Labore laborum quod nostrum adipisci consequatur quidem quia totam nobis recusandae voluptatem sapiente odit expedita deserunt similique, mollitia voluptatum culpa veritatis maiores voluptas inventore? Distinctio, aut ducimus! Voluptates ex tempora aliquam quasi, assumenda sed laudantium laborum. Saepe, totam hic?</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>18 Jun 1998</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>26</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>GitHub : <span>omarelemam49141</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>omar.elemam.<br>elmghawry<br>@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>Civil Engineering</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+20 106 207 2813</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Country : <span>Egypt</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="#contact" class="btn hire-me" onclick="openContactSection()">Hire me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:90%"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:80%"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:85%"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Bootstrap</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:90%"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JQuery</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:80%"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>SASS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:65%"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2017 - 2021
+                                                    </h3>
+                                                    <h4 class="timeline-title">Bachelor in Civil Engineering</h4>
+                                                    <p class="timeline-text">Graduated from Mansoura university,Civil Engineering department with total grade <span class="grade">very good with honors</span></p>
+                                                </div>
+
+                                                <!-- timeline item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2023 - 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Professional web development diploma</h4>
+                                                    <p class="timeline-text">Studied the basics of computer science, in addition to web development technologies at the Information technology institute "ITI" in Egypt.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- timeline item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Civil Engineer</h4>
+                                                    <p class="timeline-text">Worked for around 2 years in the construction field as a site civil engineer and as a technical office engineer</span></p>
+                                                </div>
+
+                                                <!-- timeline item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Freelancer</h4>
+                                                    <p class="timeline-text">Worked as a web developer and graphic designer for around 6 months before joining the ITI.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end about section -->
+
+            <!-- start services section -->
+            <section class="services section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- start service item -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab praesentium quas.</p>
+                            </div>
+                        </div>
+                        <!-- end service item -->
+                        <!-- start service item -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab praesentium quas.</p>
+                            </div>
+                        </div>
+                        <!-- end service item -->
+                        <!-- start service item -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab praesentium quas.</p>
+                            </div>
+                        </div>
+                        <!-- end service item -->
+                        <!-- start service item -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab praesentium quas.</p>
+                            </div>
+                        </div>
+                        <!-- end service item -->
+                        <!-- start service item -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab praesentium quas.</p>
+                            </div>
+                        </div>
+                        <!-- end service item -->
+                        <!-- start service item -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab praesentium quas.</p>
+                            </div>
+                        </div>
+                        <!-- end service item -->
+                    </div>
+                </div>
+            </section>
+            <!-- end services section -->
+            <!-- start portfolio section -->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <button class="btn active" onclick="DisplayPortfolioItems(this, websites)">Websites</button>
+                            <button class="btn not-active" onclick="DisplayPortfolioItems(this, templates)">Templates</button>
+                            <button class="btn not-active" onclick="DisplayPortfolioItems(this, javaScriptApps)">JS small apps</button>
+                            <button class="btn not-active" onclick="DisplayPortfolioItems(this, designs)">Designs</button>
+                        </div>
+                    </div>
+                    <div class="row" id="portfolio-items">
+                        <!-- start portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="live">
+                                <h3>I am a header fo a title</h3>
+                                <button class="git-btn btn"><a href="www.google.com">GitHub</a></button>
+                                <button class="live-btn btn">Live</button>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="live">
+                                <button class="git-btn btn">GitHub</button>
+                                <button class="live-btn btn">Live</button>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="live">
+                                <button class="git-btn btn">GitHub</button>
+                                <button class="live-btn btn">Live</button>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="live">
+                                <button class="git-btn btn">GitHub</button>
+                                <button class="live-btn btn">Live</button>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="live">
+                                <button class="git-btn btn">GitHub</button>
+                                <button class="live-btn btn">Live</button>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio-6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="live">
+                                <button class="git-btn btn">GitHub</button>
+                                <button class="live-btn btn">Live</button>
+                            </div>
+                        </div>
+                        <!-- end portfolio item -->
+                    </div>
+                </div>
+            </section>
+            <!-- end portfolio section -->
+            <!-- start contact section -->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Do You Have Any Questions ?</h3>
+                    <h3 class="contact-sub-title padd-15">HAVE A CONTACT WITH ME</h3>
+                    <div class="row">
+                        <!-- start contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+20 106 207 2813</p>
+                        </div>
+                        <!-- end contact info item -->
+                        <!-- start contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Office</h4>
+                            <p>Dakahlia - Egypt</p>
+                        </div>
+                        <!-- end contact info item -->
+                        <!-- start contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>omarelemam49141@gmail.com</p>
+                        </div>
+                        <!-- end contact info item -->
+                        <!-- start contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-brands fa-github"></i></div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/omarelemam49141"><p>omarelemam49141</p></a>
+                        </div>
+                        <!-- end contact info item -->
+                        <!-- start contact info item -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-brands fa-linkedin"></i></div>
+                            <h4>LinkedIn</h4>
+                            <a href="www.linkedin.com/in/omar-elemam-675b301b3"><p>omar-elemam-675b301b3</p></a>
+                        </div>
+                        <!-- end contact info item -->
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h3 class="contact-sub-title padd-15">I WILL RESPOND AS SOON AS POSSIBLE</h3>
+                    <!-- start contact-form -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Subject" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" id="" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button class="btn" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end contact-form -->
+                </div>
+            </section>
+            <!-- end contact section -->
+        </div>
+        <!-- end main content -->
+    </div>
+    <!-- End main container -->
+    
+    <!-- start style switcher -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- end style switcher -->
+
+    <!-- JS Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+</html>
